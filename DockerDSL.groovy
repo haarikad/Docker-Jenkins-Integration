@@ -14,7 +14,7 @@ job('Docker DSL') {
     }
     steps {
         dockerBuildAndPublish {
-            repositoryName('haarikad/Docker-Jenkins-DSL-Demo')
+            repositoryName('haarikad/docker-jenkins-dsl-demo')
             tag()
             registryCredentials('Dockerhub')
             forcePull(false)
